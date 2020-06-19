@@ -1,0 +1,163 @@
+body {
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+header {
+  background-image: url(../img/header_bg.png);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  color: white;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+h1, h2 {
+  font-family: 'Dosis', sans-serif;
+  font-weight: bold;
+  text-align: center;
+}
+
+h4, h5 {
+  text-align: center;
+}
+
+header p {
+  margin-top: 80px;
+}
+
+footer {
+  background-color: RGBA(59,1,36);
+}
+
+.own-navbar {
+  background-color: RGBA(59,1,36, 0.7);
+  justify-content: center;
+}
+
+.own-col-header {
+  padding: 50px 15px 50px 15px;
+}
+
+.own-button {
+  color: white;
+  background-color: #9ED363;
+  border: 2px solid #9ED363;
+  font-weight: 600;
+  margin: 20px auto;
+}
+
+.own-button:hover {
+  background: none;
+  color: white;
+  border: 2px solid #9ED363;
+}
+
+div.own-col-header a {
+  color: white;
+}
+
+div.own-col-header a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+@media (min-width: 600px) {
+  .own-col-header {
+    padding-top: 100px;
+  }
+  h1 {
+    font-size: 4rem;
+  }
+  h2 {
+    font-size: 3rem;
+  }
+  h5 {
+    font-size: 2rem;
+  }
+}
+
+.own-container {
+  margin-bottom: 50px;
+}
+
+.own-cards {
+  text-align: center;
+  border: 1px solid white;
+}
+
+.img-advantages {
+  width: 30%;
+  margin: auto;
+}
+
+.own-col {
+  padding: 50px 15px 0 15px;
+}
+
+@media (min-width: 600px) {
+  .own-col {
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+}
+
+.own-col-img {
+  padding: 0;
+}
+.img-teas {
+  width: 50%;
+  margin: auto;
+}
+
+.footer {
+    padding: 20px 0;
+}
+
+.own-footer-card {
+  background: none;
+  border: none;
+}
+
+.own-card-img {
+  width: 50%;
+}
+
+.own-testimonials-text {
+  text-align: center;
+  padding: 10px 80px;
+}
+
+.own-carousel-prev-icon {
+  background-image: url(../img/chevron_left.svg);
+}
+
+.own-carousel-next-icon {
+  background-image: url(../img/chevron_right.svg);
+}
+
+.own-form-check {
+  font-size: 0.75rem;
+}
+
+.own-form-button {
+  color: white;
+  background-color: #CC0E3C;
+  border: 2px solid #CC0E3C;
+  font-weight: 600;
+  margin: 20px auto;
+}
+
+.own-form-button:hover {
+  background: none;
+  color: #CC0E3C;
+  border: 2px solid #CC0E3C;
+}
+
+div.form-group a {
+  color: #69B4B2;
+}
+
+div.form-group a:hover {
+  color: #CC0E3C;
+}
